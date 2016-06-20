@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+.flexxed {
+  display: flex;
+  flex: 1;
+}
+
+.CenterMe {
+  background-color: indigo;
+  color: #ffffff;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.MenuWrap {
+  background-color: indigo;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  min-height: 2.75rem;
+  color: #fff;
+  display: flex;
+  flex: 5;
+  align-items: center;
+}
+
+.MenuWrap a {
+  color: #fff;
+  display: inline-block;
+}
+
+.ListItem {
+  margin-right: auto;
+}
+
+.LastItem {
+  margin-left: auto;
+}
+
+.inline-flex {
+  display: inline-flex;
+  height: 60px;
+  background-color: indigo;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+
+.FlexWrapper {
+  background-color: indigo;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 400px;
+}
+
+.FlexInner {
+  background-color: #34005B;
+  color: #fff;
+  display: flex;
+  height: 100px;
+  width: 200px;
+}
